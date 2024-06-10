@@ -1,0 +1,30 @@
+.middle {
+    padding: 4rem;
+}
+
+.hobby {
+    position: relative;
+}
+
+ul {
+    columns: 3
+}
+
+li {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.like {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+    ul {
+        columns: 2;
+    }
+}
